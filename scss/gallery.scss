@@ -1,0 +1,14 @@
+.mini_img {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    transition: 250ms;
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+#gallery h1 {
+    font-size: 2em;
+}
+
