@@ -1,6 +1,6 @@
 # TTMS0400-harkat
 
-Web-visualisointi-kurssin viikkoharjoitukset sekä loppuharkka.
+Web-visualisointi-kurssin viikkoharjoitukset sekä loppuharkka. (2018)
 
 ### Noora Ojanen M0313
 
