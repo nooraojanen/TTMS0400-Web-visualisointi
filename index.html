@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Noora Ojanen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="//stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <!-- CSS -->
+    
+    <link href="css/timeline.css" rel="stylesheet">
+    <link href="css/gallery.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet">
+    
+    <!-- SASS -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Map Links-->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+    integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+    integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+    crossorigin=""></script>
+
+    <style type="text/css">
+      #mapid { height: 400px; width: 600px; background-color: white;} 
+    </style>
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">NOORA OJANEN</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="https://student.labranet.jamk.fi/~M0313/Harjoitustyo/">ENG</a>
+        </li><li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="https://student.labranet.jamk.fi/~M0313/Harjoitustyo/fin.html">FIN</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead d-flex">
+      <div class="container text-center my-auto">
+        <h1 class="mb-1 text-capitalize" >NOORA OJANEN</h1>
+        <h3 class="mb-5">
+          <em>Media technology student, living in Jyväskylä.</em>
+        </h3>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2>About me</h2><br>
+            <img src="./img/cvkuva.JPG" alt="Nooran CV kuva" style="width: 200px;border:5px;border-style: solid;"><br><br>
+             <p style="text-align: left;">
+              <b>Welcome to my website!</b> I am an Information and Communication Technology student from Jyväskylä. I am on my second year in Jyväskylä University of Applied Sciences and the orientation of my studies is Media Technology. I am passionate about web development and UX- & UI-design. I am a hard worker and I love to create. Please check out my CV down below.</p><br>
+            <a class="btn btn-dark btn-xl js-scroll-trigger" href="https://www.visualcv.com/nooraojanen" target="_blank">My CV</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="content-section text-white text-center" id="skills">
+      <div class="container">
+        <div class="content-section-heading">
+          <h2 class="mb-5">My skills</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="fas fa-toolbox"></i>
+            </span>
+            <h4>
+              <strong>Tools</strong>
+            </h4>
+            <p class="text-faded mb-0">Brackets</p>
+            <p class="text-faded mb-0">Visual Studio Code</p>
+            <p class="text-faded mb-0">Git</p>
+            <p class="text-faded mb-0">MySQL</p>
+            <p class="text-faded mb-0">Figma</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="fas fa-code"></i>
+            </span>
+            <h4>
+              <strong>Languages</strong>
+            </h4>
+            <p class="text-faded mb-0">HTML5</p>
+            <p class="text-faded mb-0">CSS3</p>
+            <p class="text-faded mb-0">JavaScript</p>
+            <p class="text-faded mb-0">C#</p>
+            <p class="text-faded mb-0">C++</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="fas fa-heart"></i>
+            </span>
+            <h4>
+              <strong>Frameworks</strong>
+            </h4>
+              <p class="text-faded mb-0">React</p>
+            <p class="text-faded mb-0">Bootsrap</p>
+            <p class="text-faded mb-0">jQuery</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
+                <i class="fas fa-ellipsis-h"></i>
+            </span>
+            <h4>
+              <strong>Other</strong>
+            </h4>
+            <p class="text-faded mb-0">Adobe Photoshop</p>
+            <p class="text-faded mb-0">Adobe Premiere</p>
+            <p class="text-faded mb-0">Adobe After Effects</p>
+            <p class="text-faded mb-0">Inkscape</p>
+            <p class="text-faded mb-0">Microsoft Office</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Education -->
+     <section id="education">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading" style="padding-bottom:40px;">Education</h2>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <a href="jamk.fi" target="_blank"><img class="rounded-circle img-fluid" src="./img/dynamo.jpg"></a>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2017-</h4>
+                    <h4 class="subheading">Jyväskylä University of Applied Sciences</h4>
+                  </div>
+                  <div class="timeline-body">
+                      <p class="text-muted">Information and Communication Technology, Media Technology</p>
+                    <p class="text-muted">Jyväskylä, Finland</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <a href="http://www.salonlukio.fi/" target="_blank"><img class="rounded-circle img-fluid" src="./img/lukio.jpg"></a>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2014-2017</h4>
+                    <h4 class="subheading">Salon lukio</h4>
+                  </div>
+                  <div class="timeline-body">
+                      <p class="text-muted">High school graduate</p>
+                    <p class="text-muted">Salo, Finland</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <a href="http://www.isecampus.nl/Flex/Site/Page.aspx?PageID=&Lang=" target="_blank"><img class="rounded-circle img-fluid" src="./img/ise.JPG"></a>
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>2010-2011</h4>
+                    <h4 class="subheading">International School of Eindhoven</h4>
+                  </div>
+                  <div class="timeline-body">
+                      <p class="text-muted">International student</p>
+                    <p class="text-muted">Eindhoven, The Netherlands</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Languages -->
+    <section class="content-section  text-white text-center" style="background-color:#A64B6C;">
+        <div class="container" >
+            <div class="content-section-heading">
+                <h2 class="mb-5">Languages</h2>
+              </div>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <h4>
+                <strong>Finnish</strong>
+              </h4>
+              <p class="text-faded mb-0">Mother tongue</p>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+              <h4>
+                <strong>English</strong>
+              </h4>
+              <p class="text-faded mb-0">Excellent</p>
+            </div>
+           
+            <div class="col-lg-4 col-md-6">
+              <h4>
+                <strong>Swedish</strong>
+              </h4>
+              <p class="text-faded mb-0">Good</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio" >
+      <div class="container">
+        <div class="content-section-heading text-center">
+          <h3 class="text-secondary mb-0" style="color:#FFC10D;">Portfolio</h3>
+          <h2 class="mb-5">My Projects</h2>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6"> 
+            <a class="portfolio-item" href="https://student.labranet.jamk.fi/~L5572/harjty%C3%B6/Introsivu.html">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Aimon keittiö</h2>
+                  <p class="mb-0">A fun game for children.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/AimonKeittio.JPG" style="width:100%;">
+            </a>
+          </div>
+          <div class="col-lg-6">
+              <a class="portfolio-item" href="#">
+                <span class="caption">
+                  <span class="caption-content">
+                    <h2></h2>
+                    <p class="mb-0">More coming soon!</p>
+                  </span>
+                </span>
+                <img class="img-fluid" src="img/milkyway.jpg" alt="" style="height:370px;">
+              </a>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!--Slideshow -->
+    <section class="content-section" id="gallery" style="padding-bottom:120px; padding-top:90px; background-color:black; color: white;">
+        <div class="container">
+            <h2 class="text-center mb-5">Gallery</h2> 
+            <div class="slideshow-container">
+                <a href="img/sky.jpg" data-lightbox="group" data-title="Sky"><img src="img/sky_thumb.jpg" class="mini_img" alt="kuva 1"/></a>
+                <a href="img/bee.jpg" data-lightbox="group" data-title="Bee"><img src="img/bee_thumb.png" class="mini_img" alt="kuva 2"/></a>
+                <a href="img/pelto.jpg" data-lightbox="group" data-title="Field"><img src="img/pelto_thumb.jpg" class="mini_img" alt="kuva 3"/></a>
+                <a href="img/winter.jpg" data-lightbox="group" data-title="Winter"><img src="img/winter_thumb.jpg" class="mini_img" alt="kuva 4"/></a>
+                <a href="img/ladybug.jpg" data-lightbox="group" data-title="Ladybug"><img src="img/ladybug_thumb.jpg" class="mini_img" alt="kuva 5"/></a>
+                <a href="img/lake.jpg" data-lightbox="group" data-title="Lake"><img src="img/lake_thumb.jpg" class="mini_img" alt="kuva 6"/></a>
+              </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section id="map" class="map">
+        <div id="mapid" style="width:100%; height: 100%;"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center" id="contact">
+        <h2 class="text-center mb-5">Contact me:</h2> 
+        <div class="container">
+          <form>
+              <div class="form-group">
+                <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email">
+              </div>
+              <div class="form-group">
+                <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Your Phone">
+              </div>
+              <div class="form-group mb-5">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+              </div>
+              <div class="form-group mb-5">
+                <button onclick="messageSended()" class="buttoni" style="vertical-align:middle"><span>Send</span></button>
+              </div>
+          </form>
+          <p>+358 44 306 0366</p>
+          <p class="mb-5">nooramaria.ojanen@gmail.com</p>
+          <ul class="list-inline mb-5">
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/nooraojanen/" target="_blank">
+                <i class="icon-social-linkedin"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/nooraojanen/" target="_blank">
+                <i class="icon-social-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a class="social-link rounded-circle text-white" href="https://www.youtube.com/channel/UCw2wzMG1eQOKIm0Sg-oQlXA/featured" target="_blank">
+                <i class="icon-social-youtube" ></i>
+              </a>
+            </li>
+          </ul>
+        <p class="text-muted small mb-0">&copy; Noora Ojanen 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/portfolio.js"></script>
+      
+    <!-- Lightbox -->
+      <script src="lightbox/src/js/lightbox.js"></script>
+
+  </body>
+</html>
